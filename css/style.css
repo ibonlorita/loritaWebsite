@@ -1,0 +1,50 @@
+* {
+    /* font-family: Microsoft JhengHei; */
+    font-family: 'Manrope', 'Noto Sans TC', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1;
+    font-weight: 400;
+}
+
+
+
+
+
+/* ===RWD=== */
+
+@media only screen and (min-width: 1200px) {}
+
+
+@media only screen and (max-width: 1199px) {}
+
+
+@media only screen and (min-width: 992px) {}
+
+
+@media only screen and (max-width: 991px) {}
+
+
+@media only screen and (min-width: 768px) {}
+
+
+@media only screen and (max-width: 767px) {}
+
+
+@media only screen and (min-width: 576px) {}
+
+
+@media only screen and (max-width: 568px) {}
+
+
+@media only screen and (max-width: 440px) {}
+
+
+@media only screen and (max-width: 420px) {}
+
+
+@media only screen and (max-width: 380px) {}
+
+
+@media only screen and (max-width: 320px) {}
