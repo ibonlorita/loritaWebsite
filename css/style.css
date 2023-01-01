@@ -2,6 +2,10 @@
 .headerContent{
     display: flex;
     flex-direction: row;
+
+}
+.brandLogo{
+    flex: 1
     
 }
 /* HEADER end */
