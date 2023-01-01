@@ -5,8 +5,15 @@
 
 }
 .brandLogo{
-    flex: 1
+    flex: 1;
     
+}
+.pageMenu{
+    flex: 2;
+}
+
+.signGroup{
+    flex: 1;
 }
 /* HEADER end */
 
