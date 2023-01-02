@@ -4,19 +4,24 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    flex: 1 1 auto;
+    
 
 }
 .brandLogo{
-
+    flex: 1 1 auto;
     
 }
 .pageMenu{
-
+    flex: 2 1 auto;
+}
+.pageMenu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .signGroup{
-
+    flex: 1 1 auto;
 }
 /* HEADER end */
 
