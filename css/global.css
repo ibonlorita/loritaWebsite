@@ -8,6 +8,10 @@
     font-weight: 400;
 }
 
+* body{
+    margin: 0;
+}
+
 * a {
     text-decoration: none !important;
     word-break: break-all;
@@ -42,5 +46,6 @@
 * p {
     word-break: break-word;
     line-height: 1.6;
+    margin: 4px 0 0 0;
     
 }
