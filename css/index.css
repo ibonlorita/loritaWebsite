@@ -1,0 +1,32 @@
+/* content */
+
+.indexContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+.leftListCon{
+    flex:2 1 40%;
+}
+.leftListInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner{
+    flex:2 1 30%;
+}
+.leftListInner .gameGroup{
+    flex:1 1 auto;
+}
+
+
+
+
+
+.rightLiveCon{
+    flex:1 1 auto
+}
