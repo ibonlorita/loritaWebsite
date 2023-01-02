@@ -14,8 +14,9 @@
 .pageMenu{
     flex: 2 1 auto;
 }
-.pageMenu ul{
+.pageMenu ul.mainMenu {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
