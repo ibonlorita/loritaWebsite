@@ -4,14 +4,14 @@
 .indexContent{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
-    padding-top: 30px;
+    max-width: 1440px;
 
 }
 .leftListCon{
     flex:2 1 40%;
-    margin: 0 76px 0 0;
+    margin: 76px 76px auto 0;
 }
 .leftListInner{
     display: flex;
@@ -37,8 +37,9 @@
 span, .leftListInner .otherGame span {
     display: inline-block;
     color: #666666;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
 }
 
 .leftListInner .otherGame {
@@ -67,6 +68,7 @@ span, .leftListInner .otherGame span {
 /* programList */
 .rightLiveCon{
     flex:2 1 15%;
+    max-width: 330px;;
 }
 
 .rightLiveCon{
@@ -74,18 +76,31 @@ span, .leftListInner .otherGame span {
     border: 1px solid red;
 }
 
+.programOverflow{
+    overflow-y:auto;
+    height: calc(100vh - 178px);
+}
+
+
+.topBallListContent{
+    width: 100%;
+    height: 85px;
+    padding-top: 10px;
+    background-color: #ffff;
+    box-shadow: 3px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
 .topBallListInner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 85px;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .ballItem {
     text-align: center;
 }
+
 
 .topBallListInner a{
     display: block;
@@ -94,12 +109,39 @@ span, .leftListInner .otherGame span {
 
 .topBallListInner a span {
     display: block;
+    margin-top: 10px;
+    position: relative;
+
+}
+.topBallListInner .ballItem:first-child a {
+    color: #4C9EEA;
+}
+
+.topBallListInner .ballItem:first-child a span::after {
+    width: 100%;
 }
 
 .topBallListInner a span::after {
-    display: block;
+    content: "";
+    display: inline-block;
     background-color: #4C9EEA;
+    width: 0%;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
     
+}
+
+.topBallListInner a:hover span::after{
+    color: #4C9EEA;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 /* CONTENT end */
