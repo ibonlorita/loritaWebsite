@@ -145,3 +145,22 @@ span, .leftListInner .otherGame span {
 }
 
 /* CONTENT end */
+
+.rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: #eeee;
+    position: relative;
+    display: none;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
